@@ -28,8 +28,6 @@
 			      url : "/schedule/run",
 			      data : data
 			  }).then(function mySuccess(response) {
-				  console.log(response)
-				  console.log(response.data.msg)
 				  if(response.data.msg!="success")
 					  alert(response.data.msg);
 				  else
