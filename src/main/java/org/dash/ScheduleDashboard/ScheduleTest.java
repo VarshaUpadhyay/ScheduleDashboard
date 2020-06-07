@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 //@EnableScheduling
-@EnableScheduleDashboard
+//@EnableScheduleDashboard
 public class ScheduleTest {
 
 	@Scheduled(fixedDelay = 20000)
