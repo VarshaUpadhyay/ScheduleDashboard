@@ -5,9 +5,15 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
+/**
+ * @author Varsha
+ *  
+ *  Purpose of this class is to test all type of schedule
+ *
+ */
 @Component
 //@EnableScheduling
-//@EnableScheduleDashboard
+@EnableScheduleDashboard
 public class ScheduleTest {
 
 	@Scheduled(fixedDelay = 20000)
