@@ -16,6 +16,6 @@ public class ScheduleTest {
   }
   
   
- # Go to (http://<host>:<port>/schedule) to access dashboard.
+  Go to (http://your_host:your_port/schedule) to access dashboard.
   
   
