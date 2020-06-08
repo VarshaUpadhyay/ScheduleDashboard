@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  *  Purpose of this class is to test all type of schedule
  *
  */
-@Component
+//@Component
 //@EnableScheduling
 //@EnableScheduleDashboard
 public class ScheduleTest {
