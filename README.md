@@ -1,3 +1,5 @@
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.varshaupadhyay/schedule-dashboard/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.varshaupadhyay/schedule-dashboard/)
+
 # ScheduleDashboard
 This repository will create a dashboard for schedules in your java application.
 From the schedule dashboard you can monitor your schedule and also you can run a particular schedule before its next run time.
