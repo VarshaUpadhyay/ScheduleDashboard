@@ -46,7 +46,7 @@ public class ApplicationController {
 		try {
 			Method[] methods = ScheduleAspect.scheduleClassObj.getClass().getDeclaredMethods();
 			for (int i = 0; i < methods.length; i++) {
-				if (info.get("methodName").toString().contains(methods[i].getName())) {
+				if (info.get("methodName").toString().equals(methods[i].getName())) {
 					methods[i].invoke(ScheduleAspect.scheduleClassObj);
 					response = "success";
 					break;

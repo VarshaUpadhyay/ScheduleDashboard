@@ -41,7 +41,7 @@ public class ScheduleAspect {
 
 		Method[] methods = joinPoint.getThis().getClass().getSuperclass().getMethods();
 		for (Method method : methods) {
-			if (joinPoint.getSignature().getName().contains(method.getName())) {
+			if (joinPoint.getSignature().getName().equals(method.getName())) {
 				Scheduled schedule = method.getAnnotation(Scheduled.class);
 				Date cronDate = null;
 				if (!schedule.cron().equals("")) {
