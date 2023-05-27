@@ -1,4 +1,5 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.varshaupadhyay/schedule-dashboard/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.varshaupadhyay/schedule-dashboard/)
+https://plugins.gradle.org/plugins/badge.svg?pluginId=com.github.varshaupadhyay:schedule-dashboard:1.0.1
 
 # ScheduleDashboard
 This repository will create a dashboard for schedules in your java application.
