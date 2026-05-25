@@ -1,26 +1,77 @@
-![Maven Central](https://img.shields.io/maven-central/v/com.github.varshaupadhyay/schedule-dashboard)
-
+[![Maven Central](https://img.shields.io/maven-central/v/com.github.varshaupadhyay/schedule-dashboard.svg)](https://central.sonatype.com/artifact/com.github.varshaupadhyay/schedule-dashboard)
 
 # ScheduleDashboard
-This repository will create a dashboard for schedules in your java application.
-From the schedule dashboard you can monitor your schedule and also you can run a particular schedule before its next run time.
 
-# Working Example
+ScheduleDashboard is a lightweight Spring Boot dashboard for monitoring and managing scheduled jobs in Java applications.
 
+It uses AspectJ for tracking and intercepting scheduled job executions and Thymeleaf for rendering the dashboard UI. The dashboard provides real-time visibility into scheduled tasks and allows manual triggering of jobs directly from the interface.
+
+---
+
+## Features
+
+* Monitor scheduled jobs in real time
+* View job execution details
+* Manually trigger scheduled jobs
+* Lightweight and easy to integrate
+* Built for Spring Boot applications
+
+---
+
+## Maven Dependency
+
+```xml
+<dependency>
+    <groupId>com.github.varshaupadhyay</groupId>
+    <artifactId>schedule-dashboard</artifactId>
+    <version>1.0.2</version>
+</dependency>
 ```
+
+---
+
+## Usage
+
+```java
 @Component
 @EnableScheduling
 @EnableScheduleDashboard
 @ComponentScan(basePackageClasses = ApplicationController.class)
-public class ScheduleTest{
-	@Scheduled(fixedDelay = 20000)
-	public void test1() {
-		System.out.println("test1 is running.....");
-	}
-	}
-  ```
-  Go to (http://your_host:your_port/schedule) to access dashboard.
-  
+public class ScheduleTest {
+
+    @Scheduled(fixedDelay = 20000)
+    public void test1() {
+        System.out.println("test1 is running...");
+    }
+}
+```
+
+---
+
+## Access Dashboard
+
+After starting your application, open:
+
+```text
+http://your_host:your_port/schedule
+```
+
+## Dashboard Preview
+
+<img width="800" alt="Schedule Dashboard Preview" src="https://github.com/user-attachments/assets/57270a0c-438b-448a-8ca3-b2bb68dc494b" />
+
+---
+
+## Tech Stack
+
+* Java
+* Spring Boot
+* Spring Scheduling
+* AspectJ
+* Thymeleaf
+* Maven
+
+--- 
   
 ## License
 
