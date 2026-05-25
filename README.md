@@ -2,9 +2,9 @@
 
 # ScheduleDashboard
 
-ScheduleDashboard is a lightweight Spring Boot dashboard for monitoring and managing scheduled jobs in Java applications.
+ScheduleDashboard is a lightweight Spring Boot dashboard for monitoring and managing Spring Batch scheduled jobs in Java applications.
 
-It uses AspectJ for tracking and intercepting scheduled job executions and Thymeleaf for rendering the dashboard UI. The dashboard provides real-time visibility into scheduled tasks and allows manual triggering of jobs directly from the interface.
+It uses AspectJ for tracking and intercepting scheduled job executions and Thymeleaf for rendering the dashboard UI. The dashboard provides real-time visibility into scheduled tasks, execution monitoring, and manual triggering capabilities directly from the interface.
 
 ---
 
