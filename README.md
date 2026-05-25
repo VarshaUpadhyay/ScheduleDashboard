@@ -1,4 +1,4 @@
-[![Maven Central](https://central.sonatype.com/artifact/com.github.varshaupadhyay/schedule-dashboard)](https://central.sonatype.com/artifact/com.github.varshaupadhyay/schedule-dashboard)
+![Maven Central](https://img.shields.io/maven-central/v/com.github.varshaupadhyay/schedule-dashboard)
 
 
 # ScheduleDashboard
