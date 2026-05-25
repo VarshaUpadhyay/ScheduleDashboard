@@ -1,4 +1,4 @@
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.varshaupadhyay/schedule-dashboard/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.varshaupadhyay/schedule-dashboard/)
+[![Maven Central](https://central.sonatype.com/artifact/com.github.varshaupadhyay/schedule-dashboard)](https://central.sonatype.com/artifact/com.github.varshaupadhyay/schedule-dashboard)
 
 
 # ScheduleDashboard
